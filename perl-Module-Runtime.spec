@@ -1,7 +1,7 @@
 # This file is licensed under the terms of GNU GPLv2+.
 Name:           perl-Module-Runtime
 Version:        0.013
-Release:        4%{?dist}
+Release:        3.1%{?dist}
 Summary:        Runtime module handling
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -41,9 +41,6 @@ find $RPM_BUILD_ROOT -depth -type d -exec rmdir {} 2>/dev/null \;
 %{_mandir}/man3/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.013-4
-- Mass rebuild 2013-12-27
-
 * Wed Aug 15 2012 Daniel Mach <dmach@redhat.com> - 0.013-3.1
 - Rebuild for perl 5.16
 
